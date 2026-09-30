@@ -1,0 +1,10 @@
+CP3 incident metric readback
+Challenge: day13-k4-l3b-monitoring-llmops-v1 | Cohort: K4 | Scenario: rag_slow
+Source: data/logs.jsonl; dashboard percentile method: nearest-rank; server-side latency_ms only.
+Incident enabled: 2026-09-30T05:09:17.189602Z
+Baseline (10 response_sent rows after latest app start and before enable): 2026-09-30T05:08:58.967614Z .. 2026-09-30T05:09:00.381431Z
+  P50=151 ms; P95=1374 ms; range=151..1374 ms.
+Official challenge (5 response_sent rows): 2026-09-30T05:09:32.523665Z .. 2026-09-30T05:09:43.161241Z
+  P50=2652 ms; P95=2652 ms; range=2651..2652 ms.
+  Challenge limit=2000 ms; above limit=5/5; per-request latency_ms=2651, 2651, 2652, 2652, 2652 ms.
+Client-side load_test elapsed times are intentionally excluded because concurrency queues requests.

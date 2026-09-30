@@ -7,7 +7,11 @@ primary_slo:
     total_event: 'event == "request_received"'
   target_percent: 99.5
   error_budget_percent: 0.5
-  note: Học viên phải giải thích hoặc điều chỉnh ngưỡng bằng baseline của mình. Ví dụ nếu có 10,000 request trong cửa sổ 28 ngày, error budget 0.5% nghĩa là tối đa 50 request được phép không đạt SLO.
+  error_budget_example:
+    requests: 10000
+    allowed_bad_requests: 50
+    calculation: 10000 * 0.5 / 100
+  note: Good requests are successful response_sent events with server-side latency_ms <= 3000 during the 28-day window. With a 99.5% target, the 0.5% error budget permits at most 50 bad requests out of 10,000; requests that fail or exceed the latency threshold consume budget.
 guardrails:
   error_rate_pct_max: 2
   daily_cost_usd_max: 2.5

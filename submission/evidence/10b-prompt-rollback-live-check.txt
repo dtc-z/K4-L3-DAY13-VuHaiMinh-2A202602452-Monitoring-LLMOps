@@ -1,0 +1,11 @@
+CP2 live prompt rollback verification
+Source: Langfuse API via the repository-configured client; secrets omitted.
+Prompt: day13-chat
+Production version: 1
+Labels on production version: baseline, production
+Correlation ID: req-d0b90001
+Trace ID: d80e5b4cc2e43f1b833a22ca09f05490
+Observations: lab-agent-run > retrieval + generation
+Root metadata: prompt_source=langfuse, prompt_label=production, prompt_version=1
+Generation prompt: day13-chat v1
+HTTP response: 200; server latency: 151 ms

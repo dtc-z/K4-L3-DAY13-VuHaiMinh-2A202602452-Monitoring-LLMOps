@@ -1,0 +1,14 @@
+Source: data/logs.jsonl
+Event: response_sent
+{
+  "ts": "2026-09-30T05:09:32.523665Z",
+  "event": "response_sent",
+  "correlation_id": "req-5eb636e8",
+  "session_id": "k4-l3b-challenge-s03",
+  "feature": "monitoring",
+  "model": "claude-sonnet-4-5",
+  "env": "dev",
+  "latency_ms": 2652,
+  "ttft_ms": 50,
+  "tool_success": true
+}

@@ -1,0 +1,9 @@
+Langfuse observation API readback (sanitized; no prompt/input/output text)
+Project: day13-k4-l3b-2A202602452
+Trace name: lab-agent-run
+Trace ID: 76147b7f1916416fe980e1de4a3d0592
+Correlation ID: req-5eb636e8
+Feature: monitoring
+Root observation: lab-agent-run | id=62c258471a1f61fe | duration=2652 ms | doc_count=1 | prompt_source=langfuse | prompt_version=1
+Child observation: retrieval | id=ccfa1b28a26e0a0f | parent=62c258471a1f61fe | duration=2501 ms
+Child observation: generation | id=763ea0f328cb318e | parent=62c258471a1f61fe | duration=151 ms | prompt=day13-chat v1
