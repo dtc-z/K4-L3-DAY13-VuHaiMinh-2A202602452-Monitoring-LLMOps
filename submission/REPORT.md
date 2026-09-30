@@ -8,7 +8,7 @@
 - **MSSV:** 2A202602452
 - **Lớp:** K4-L3B
 - **Repository URL:** https://github.com/dtc-z/K4-L3-DAY13-VuHaiMinh-2A202602452-Monitoring-LLMOps
-- **Commit SHA cuối:**
+- **Commit SHA cuối (nội dung và evidence):** `ca746b704c13e923f70c5cf1f82d4fbc5689c99b`
 - **Challenge ID:** `day13-k4-l3b-monitoring-llmops-v1`
 - **Tên project Langfuse cá nhân:** `day13-k4-l3b-2A202602452`
 
@@ -119,7 +119,7 @@ Các kết quả CP2 được giữ tách biệt với CP3 challenge. Kiểm tra
 
 ## 9. Checklist trước khi nộp
 
-- [ ] Kết quả và evidence thuộc commit SHA cuối.
+- [x] Kết quả và evidence thuộc commit SHA nêu ở mục thông tin học viên.
 - [x] Tất cả ảnh/output trong evidence index mở được bằng đường dẫn tương đối.
 - [x] Incident evidence nối đúng metric → log → trace qua `req-5eb636e8`.
 - [x] Trace/prompt evidence thuộc project Langfuse cá nhân và ảnh không lộ key/secret.
