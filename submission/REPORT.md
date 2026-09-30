@@ -125,4 +125,4 @@ Các kết quả CP2 được giữ tách biệt với CP3 challenge. Kiểm tra
 - [x] Trace/prompt evidence thuộc project Langfuse cá nhân và ảnh không lộ key/secret.
 - [x] Repository chạy lại được theo README; pytest 25 passed, validators đạt yêu cầu.
 - [x] Không đưa secret, API key, PII thô hoặc evidence của người khác/lớp khác vào submission.
-- [ ] Sau khi push: nộp URL repo và commit SHA trên LMS/Codelabs.
+- [x] Sau khi push: nộp URL repo và commit SHA trên LMS/Codelabs.
